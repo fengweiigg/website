@@ -9,7 +9,7 @@ title = "Projects"
 subtitle = ""
 
 # Order that this section will appear in.
-weight = 50
+weight = 30
 
 # View.
 # Customize how projects are displayed.
@@ -26,15 +26,15 @@ filter_default = 0
 # To remove toolbar, delete/comment all instances of `[[filter]]` below.
 [[filter]]
   name = "All"
-  tag = "*"
+  tags = "*"
   
-[[filter]]
-  name = "Deep Learning"
-  tag = ".deep-learning"
+#[[filter]]
+ # name = "NSFC"
+  # tags = "NSFC"
 
-[[filter]]
-  name = "Other"
-  tag = ".demo"
+#[[filter]]
+ # name = "Other"
+ # tag = ".demo"
 
 +++
 

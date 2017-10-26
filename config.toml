@@ -31,7 +31,7 @@ defaultContentLanguageInSubdir = false
 [params]
   # Color theme.
   #   Choose from `default`, `ocean`, `forest`, or `coffee`.
-  color_theme = "default"
+  color_theme = "ocean"
 
   # Font style.
   #   Choose from `default`, `classic`, or `playfair`.
@@ -65,9 +65,9 @@ defaultContentLanguageInSubdir = false
   #   Get your API key: https://developers.google.com/maps/documentation/javascript/get-api-key
   #   Get your coords: Right-click place on Google Maps. Select 'What's here?'. At the bottom is a card with the coords.
   #   Disable Google Maps by clearing all three options to "".
-  google_maps_api_key = ""
-  latitude = ""
-  longitude = ""
+  google_maps_api_key = "AIzaSyBG7AiZ7uGAJFntHsNzfxOVjFfW9E7BGFQ"
+  latitude = "30.57476"
+  longitude = "114.3664"
 
   # Date format (refer to Go's date format: http://flippinggodateformat.com )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
@@ -213,20 +213,20 @@ defaultContentLanguageInSubdir = false
   url = "#publications_selected"
   weight = 2
 
-#[[menu.main]]
-  #name = "Posts"
-  #url = "#posts"
-  #weight = 3
-
 [[menu.main]]
   name = "Projects"
   url = "#projects"
+  weight = 3
+
+[[menu.main]]
+  name = "Honors"
+  url = "#honors"
   weight = 4
 
-#[[menu.main]]
-  #name = "Teaching"
-  #url = "#teaching"
-  #weight = 5
+[[menu.main]]
+  name = "Posts"
+  url = "#posts"
+  weight = 5
 
 [[menu.main]]
   name = "Contact"
